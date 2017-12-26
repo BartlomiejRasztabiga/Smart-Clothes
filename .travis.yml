@@ -2,8 +2,6 @@ language: android
 addons:
   sonarcloud:
     organization: infinitefuture-github
-    token:
-      secure: 0246e1f23ac1e7b782a4b1acc5aae9bf0d7ccf1d
 android:
   components:
     - tools
