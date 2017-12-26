@@ -1,3 +1,91 @@
 <resources>
     <string name="app_name">Smart Clothes</string>
+    
+    <string name="WSH_1_name">WSH-1</string>
+    <string name="WSH_1_description">Washing</string>
+    <string name="WSH_2_name">WSH-2</string>
+    <string name="WSH_2_description">Wash at or below 30°C</string>
+    <string name="WSH_3_name">WSH-3</string>
+    <string name="WSH_3_description">Wash at or below 40°C</string>
+    <string name="WSH_4_name">WSH-4</string>
+    <string name="WSH_4_description">Wash at or below 50°C</string>
+    <string name="WSH_5_name">WSH-5</string>
+    <string name="WSH_5_description">Wash at or below 60°C</string>
+    <string name="WSH_6_name">WSH-6</string>
+    <string name="WSH_6_description">Hand wash</string>
+    <string name="WSH_7_name">WSH-7</string>
+    <string name="WSH_7_description">Do not wash</string>
+
+    <string name="BL_1_name">BL-1</string>
+    <string name="BL_1_description">Bleaching symbol</string>
+    <string name="BL_2_name">BL-2</string>
+    <string name="BL_2_description">Bleaching with chlorine allowed</string>
+    <string name="BL_3_name">BL-3</string>
+    <string name="BL_3_description">Non-chlorine bleach when needed</string>
+    <string name="BL_4_name">BL-4</string>
+    <string name="BL_4_description">Do not bleach</string>
+    <string name="BL_5_name">BL-5</string>
+    <string name="BL_5_description">Do not bleach</string>
+
+    <string name="DR_1_name">DR-1</string>
+    <string name="DR_1_description">Tumble drying symbol</string>
+    <string name="DR_2_name">DR-2</string>
+    <string name="DR_2_description">Tumble drying (low temperature)</string>
+    <string name="DR_3_name">DR-3</string>
+    <string name="DR_3_description">Tumble drying (normal)</string>
+    <string name="DR_4_name">DR-4</string>
+    <string name="DR_4_description">Do not tumble dry</string>
+    <string name="DR_5_name">DR-5</string>
+    <string name="DR_5_description">Drying symbol</string>
+    <string name="DR_6_name">DR-6</string>
+    <string name="DR_6_description">Line dry</string>
+    <string name="DR_7_name">DR-7</string>
+    <string name="DR_7_description">Dry flat</string>
+    <string name="DR_8_name">DR-8</string>
+    <string name="DR_8_description">Drip dry</string>
+    <string name="DR_9_name">DR-9</string>
+    <string name="DR_9_description">Dry in the shade</string>
+    <string name="DR_10_name">DR-10</string>
+    <string name="DR_10_description">Line dry in the shade</string>
+    <string name="DR_11_name">DR-11</string>
+    <string name="DR_11_description">Dry flat in shade</string>
+    <string name="DR_12_name">DR-12</string>
+    <string name="DR_12_description">Drip dry in shade</string>
+
+    <string name="IR_1_name">IR-1</string>
+    <string name="IR_1_description">Ironing symbol</string>
+    <string name="IR_2_name">IR-2</string>
+    <string name="IR_2_description">Iron at low temperature</string>
+    <string name="IR_3_name">IR-3</string>
+    <string name="IR_3_description">Iron at medium temperature</string>
+    <string name="IR_4_name">IR-4</string>
+    <string name="IR_4_description">Iron at high temperature</string>
+    <string name="IR_5_name">IR-5</string>
+    <string name="IR_5_description">Do not iron</string>
+
+    <string name="CH_1_name">CH-1</string>
+    <string name="CH_1_description">Professional cleaning symbol</string>
+    <string name="CH_2_name">CH-2</string>
+    <string name="CH_2_description">Dry clean, hydrocarbon solvent only (HCS)</string>
+    <string name="CH_3_name">CH-3</string>
+    <string name="CH_3_description">Gentle cleaning with hydrocarbon solvents</string>
+    <string name="CH_4_name">CH-4</string>
+    <string name="CH_4_description">Very gentle cleaning with hydrocarbon solvents</string>
+    <string name="CH_5_name">CH-5</string>
+    <string name="CH_5_description">Dry clean, any solvent except tetrachloroethylene</string>
+    <string name="CH_6_name">CH-6</string>
+    <string name="CH_6_description">Gentle cleaning with PCE</string>
+    <string name="CH_7_name">CH-7</string>
+    <string name="CH_7_description">Very gentle cleaning with PCE</string>
+    <string name="CH_8_name">CH-8</string>
+    <string name="CH_8_description">Do not dry clean</string>
+
+    <string name="WE_1_name">WE-1</string>
+    <string name="WE_1_description">Professional wet cleaning</string>
+    <string name="WE_2_name">WE-2</string>
+    <string name="WE_2_description">Gentle wet cleaning</string>
+    <string name="WE_3_name">WE-3</string>
+    <string name="WE_3_description">Very gentle wet cleaning</string>
+    <string name="WE_4_name">WE-4</string>
+    <string name="WE_4_description">Do not wet clean</string>
 </resources>
