@@ -19,7 +19,7 @@ android:
 script:
   - cd app/
   - chmod a+x ./gradlew
-  - ./gradlew clean build sonarqube
+  - ./gradlew clean build
     
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
