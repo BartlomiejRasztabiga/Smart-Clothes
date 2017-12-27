@@ -5,6 +5,8 @@ import android.nfc.NfcAdapter
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
+import pl.infinitefuture.smartclothes.util.DataFormatter
+import pl.infinitefuture.smartclothes.util.LabelSymbols
 import pl.infinitefuture.smartclothes.util.NFCTools
 
 class MainActivity : AppCompatActivity() {
@@ -36,6 +38,15 @@ class MainActivity : AppCompatActivity() {
         super.onNewIntent(intent)
 
         val dataOnTag = NFCTools.readFromNFCTag(intent)
-        nfcMessage.text = dataOnTag
+        val labelOnTag = DataFormatter.dataToLabel(dataOnTag)
+        //nfcMessage.text = dataOnTag
+
+        val labelName = labelOnTag.name
+        val labelSymbolsStrings = labelOnTag.symbols
+
+        val labelSymbols = labelSymbolsStrings.map { LabelSymbols.symbols[it] }
+
+        nfcMessage.text = labelName
+
     }
 }
